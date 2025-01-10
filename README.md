@@ -25,7 +25,7 @@ cd portfolio-website
 
 
 3. Open index.html in your browser to view the website locally.
-shell
+
 ## Future Enhancements
 - Add more projects to the portfolio.
 - Include animations for smoother transitions.
@@ -36,5 +36,15 @@ shell
    ```
    git checkout -b feature-branch-name
 
-git commit -m "Add some feature"
+3. Commit your changes
+```
+   git commit -m "Add some feature"
+```
 
+
+#### **Acknowledgments**
+Credit any resources or inspiration:
+
+## Acknowledgments
+- Design inspiration from [FreeCodeCamp](https://www.freecodecamp.org/).
+- Hosted using [GitHub Pages](https://pages.github.com/).
