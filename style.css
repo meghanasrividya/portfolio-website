@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section */
+  #about img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  /* Projects Section */
+  #projects article {
+    margin: 20px 0;
+  }
+  
+  #projects img {
+    max-width: 50%;
+    border-radius: 8px;
+  }
+  
+  /* Contact Section */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
