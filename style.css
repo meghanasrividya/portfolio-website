@@ -16,12 +16,16 @@
   
   /* Header */
   header {
-    background: #ff0000;
+    background-color: #994b4b;
     color: #fff;
     padding: 10px 0;
     text-align: center;
   }
-  
+   /* Footer*/
+   footer {
+    background-color: #994b4b;
+    color:#fff;
+   }
   header h1 {
     font-size: 2.5rem;
   }
@@ -91,7 +95,7 @@
   }
   
   form button {
-    background: #333;
+    background: #994b4b;
     color: #fff;
     cursor: pointer;
   }
